@@ -26,7 +26,7 @@ const userSchema = new mongoose.Schema({
 
 const User = mongoose.model("User", userSchema);
 
-module.exports = mongoose;
+
 
 app.use(cors());
 app.use(bodyParser.json());
